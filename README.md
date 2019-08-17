@@ -9,7 +9,14 @@ You can install guinicorn on your local computer using any of the following comm
          1. pipenv install gunicorn 
          2. pip install gunicorn
        
-2). Then install  Heroku CLI   locally on your machine.     
+2). Then install  Heroku CLI   locally on your machine.  
+  
+ on Ubuntu use-
+        sudo snap install --classic heroku
+ on macos use-
+        brew tap heroku/brew && brew install heroku
+ on window- Download the appropriate installer for your Windows installation:
+ on there webpage- https://devcenter.heroku.com/articles/heroku-cli
        
 After successfully installing Heroku,  Login via CLI using the following command
 
